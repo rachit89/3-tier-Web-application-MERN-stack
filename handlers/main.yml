@@ -1,0 +1,7 @@
+---
+# handlers file for rachit
+
+- name: Restart Nginx
+  service:
+    name: nginx
+    state: restarted
